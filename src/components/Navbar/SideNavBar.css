@@ -1,0 +1,30 @@
+.navbars {
+	text-align: center;
+	list-style-type: none;
+	margin-top: 100px;
+	width: 300px;
+}
+.navbars li {
+	float: left;
+
+	width: 180px;
+	height: 55px;
+	text-align: center;
+	border: 3px solid #0783c0;
+	border-radius: 10px;
+	color: #0783c0;
+	position: relative;
+	margin-bottom: 50px;
+
+	font-family: Arial;
+	font-size: 14px;
+	list-style-type: none;
+	padding-top: -36px;
+	padding-bottom: 10px;
+}
+
+.navbars li:focus {
+	background-color: #0783c0;
+	color: white;
+	cursor: pointer;
+}

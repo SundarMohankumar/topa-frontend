@@ -1,0 +1,181 @@
+.Parent {
+	display: flex;
+	/* border: 1px solid rgb(92, 95, 238); */
+	flex-direction: column;
+	align-items: center;
+	margin-left: 300px;
+	width: 900px;
+	/* margin-top: -5px; */
+	margin-top: -580px;
+	margin-bottom: 0px;
+	/* border: 2px solid #748fca; */
+	border-radius: 60px;
+	height: 80vh;
+	justify-content: space-between;
+}
+
+.Box {
+	margin-top: 10px;
+	margin-right: 35px;
+}
+
+#boxes {
+	display: inline-block;
+}
+
+#leftbox {
+	float: left;
+	border: 3.5px solid #748fca;
+	border-radius: 25px;
+	height: 25vh;
+	width: 25vw;
+	text-align: left;
+}
+
+#rightbox {
+	float: right;
+	border: 3.5px solid #748fca;
+	border-radius: 25px;
+	margin-left: 20px;
+	height: 25vh;
+	width: 25vw;
+	text-align: left;
+}
+
+.boxdata1 {
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 30px;
+}
+
+.boxdata {
+	text-align: left;
+	margin-left: 30px;
+	outline: none;
+}
+
+.thankYouText {
+	font-family: interstateBold;
+	font-size: 10vw;
+	color: rgb(182, 56, 56);
+	align-self: center;
+}
+
+.borderText1 {
+	font-family: interstateRegular;
+	position: absolute;
+	color: black;
+	font-size: 3vh;
+	border: 2px solid #495050;
+	border-radius: 10px;
+	background-color: rgb(194, 199, 202);
+	padding-left: 2vw;
+	padding-right: 2vw;
+	margin-top: -15px;
+	margin-left: 10px;
+}
+
+.borderText2 {
+	font-family: interstateRegular;
+	position: absolute;
+	color: black;
+	font-size: 3vh;
+	border: 2px solid #495050;
+	border-radius: 10px;
+	background-color: rgb(194, 199, 202);
+	padding-left: 2vw;
+	padding-right: 2vw;
+	/* bottom: 315px; */
+	margin-top: -15px;
+	/* margin-bottom: -3px; */
+	margin-left: 10px;
+}
+
+.data {
+	bottom: 10px;
+}
+
+.abc {
+	float: left;
+	position: relative;
+	border-radius: 10px;
+	height: 8vh;
+	width: 15vw;
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-right: 10px;
+	border: 3.5px solid #2f66dd;
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 10px;
+}
+
+.inputText {
+	float: left;
+	position: relative;
+	outline: none;
+	border-radius: 10px;
+	height: 8vh;
+	width: 15vw;
+	margin-top: 1px;
+	margin-left: 20px;
+	border: 3.5px solid #2f66dd;
+}
+
+.xyz input {
+	margin-top: -8px;
+}
+
+.abc:focus {
+	background-color: #2f66dd;
+	color: white;
+}
+
+.browse {
+	float: left;
+	position: relative;
+	border-radius: 10px;
+	height: 8vh;
+	width: 15vw;
+	margin-top: -8px;
+	margin-left: 30px;
+	border: 3.5px solid #2f66dd;
+}
+.browse:focus {
+	background-color: #2f66dd;
+	color: white;
+}
+
+.fileupload {
+	float: left;
+	border-radius: 10px;
+	height: 8vh;
+	width: 15vw;
+	margin-top: 60px;
+	margin-left: -490px;
+	margin-right: 50px;
+	border: 3.5px solid #2f66dd;
+}
+.fileupload:focus {
+	background-color: #2f66dd;
+	color: white;
+}
+
+.xyz {
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	margin-right: 275px;
+}
+
+.logo {
+	height: 20px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 250px;
+}
+
+* {
+	box-sizing: border-box;
+}

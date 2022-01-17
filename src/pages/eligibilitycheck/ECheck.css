@@ -1,0 +1,49 @@
+#in-screen {
+	padding: 50px;
+	text-align: center;
+	/* border: 1px solid #0783c0; */
+	/* border-radius: 60px; */
+	margin: 40px;
+	margin-top: -590px;
+	width: 1000px;
+	height: 400px;
+	margin-left: 250px;
+	position: absolute;
+}
+
+#in-screen label {
+	float: left;
+	clear: left;
+	width: 150px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 16px;
+	color: #7d7676;
+	margin-bottom: 20px;
+}
+
+#in-screen input {
+	text-align: left;
+	float: left;
+	height: 20px;
+	width: 150px;
+	position: relative;
+	background-color: #e8e8e8;
+	margin-top: 5px;
+}
+
+#in-screen button {
+	display: inline-block;
+	width: 180px;
+	height: 32px;
+	padding: 5px;
+	margin-top: 70px;
+	margin-left: 0px;
+	margin-right: 600px;
+	background-color: #0783c0;
+	border-radius: 8px;
+	cursor: pointer;
+	color: white;
+
+	font-size: 14px;
+}
